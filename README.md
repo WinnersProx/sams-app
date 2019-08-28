@@ -1,9 +1,6 @@
 ##SAMS
 
-
 - This is a PHP based project about students attendance management.
-
-
 
 ##Contributor
 
