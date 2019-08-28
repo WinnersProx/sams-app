@@ -1,0 +1,295 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+body{
+	background-image: url('../images/Bootsnback.jpg');
+	background-attachment: fixed;
+	background-opacity:0.4;
+	
+}
+#home{
+	font-size: 20px;
+}
+.btn btn-primary{
+	background-color:#191616;
+}
+/*change something about profile*/
+.user-block-username,.user-block{
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/* this belong Parsley js library for validation*/
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  color:darkred;
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+/*codes belonging to parsley js library*/
+
+/*-----------------Share code-------------------------------------*/
+#main-content-share-code{
+	background-color: #000;
+	padding-top: 1em;
+	padding-left: 8px;
+	position: relative;
+}
+.tool-nav{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#code{
+	font-family: "Source Code Pro",sans-serif;
+	width: 100%;
+	min-height: 400px;
+	border:none;
+	outline: none;
+	background-color: #000;
+	color:#c5c5c5;
+	resize: none;
+	font-size: 14px;
+	overflow: hidden;
+
+}
+/*-----------------Share code-------------------------------------*/
+
+/*-----------------Stylisation et pagination d'utilisateurs----------------------*/
+.users{
+	margin-bottom: 3em;
+}
+.user-block{
+	text-align: center;
+}
+.user-block .avatar{
+	margin:auto;
+}
+
+
+
+
+/*-----------------Stylisation et pagination d'utilisateurs----------------------*/
+/*-----------------microposts----------------------*/
+.status-post{
+	border: 1px solid #c7b2b3;
+	border-radius: 4px;
+	
+}
+.status-post textarea{
+	border:none;
+	background-color: #c7b2b3;
+	resize: none;
+	
+
+}
+.status-post textarea:focus{
+	box-shadow:none;
+}
+.status-post-submit{
+	border-top: 1px solid #c7b2b3;
+	padding-top:20px;
+	padding-bottom:12px;
+	padding-right :10px;
+
+}
+.status-post-submit .btn{
+	float: right;
+	
+}
+.btn{
+	margin-top:-15px;
+}
+/* for status*/
+.status-media{
+	border-radius: 4px;
+	padding:10px;
+	background-color: gray;	
+	border: 1px solid gray;
+	word-break:break-all;
+	-moz-word-break:break-all;
+}
+/* for status*/
+
+/*ab bc ac*/
+/*for the users profile*/
+.user-avatar-md{
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;
+}
+.user-avatar-xs{
+	border-radius: 100%;
+	height: 25px;
+	width: 25px;
+}
+.user-avatar-lu{
+	border-radius: 100%;
+	height: 65px;
+	width: 65px;
+}
+/*for a given search*/
+#search{
+	background-color: #343535;
+	border:none;
+
+}
+#search:focus{
+	border: none;
+	box-shadow: none;
+}
+#psearch{
+	padding-top: 10px;
+	padding-left: 50px;
+
+
+}
+/*for the users profile*/
+/**/
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus{
+	outline: none;
+	box-shadow: none;
+	border: 1px solid gray;
+	color: gray;
+	border-radius: none;
+}
+#show_results{
+	width: 410px;
+	height: 100px;
+	overflow: scroll;
+	position: fixed;
+	background-color: #343535;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	border-radius: 5px;
+	padding-left: 20px;
+	color: white;
+	display: none;
+	
+}
+.show-user-box{
+	border-bottom: 1px solid gray;
+	height: 60px;
+	font-size: 13px;
+	position: relative;
+}
+.show-user-box a{
+	text-decoration: none;
+	color: white;
+	display: block;
+
+}
+.show-user-box:hover a{
+	color:black;
+}
+.show-user-box:hover{
+	background-color: #293535;
+	cursor: pointer;
+	text-decoration: none;
+}
+/*profile*/
+
+#user_banner{
+	
+	height: 150px;
+	width: 100%;
+	background-color: #251b1b;
+	background-blend-mode: saturation;
+	padding-top: 7px;
+
+}
+#user_profile{
+	width: 100%;
+
+}
+
+.user-banner-avatar{
+	padding-left: 55px;
+}
+
+
+.group{
+	border-radius: 5px;
+	padding: 4px;
+	width:270px;
+	box-shadow: inset 2px -1px 1px 2px #b3aaaa;
+}
+#u_middle{
+	width: 570px;
+	box-shadow: inset 1px -1px 1px 2px #b3aaaa;
+}
+.p-heading{
+	background-color: #191616;
+	padding: inherit;
+	border-radius: 5px;
+	color: white;
+}
+.padd{
+	border-bottom: 1px solid gray;
+}
+
+
+
+/*for my good messages*/
+#contentm{
+	resize: none;
+	border: 1px solid #c7b2b3;
+	box-shadow:none;
+}
+#contentm :focus{
+	border:none;
+	box-shadow:none;
+}
+.sender{
+	padding: 9px;
+	background-color:#707098;
+	width: 450px;
+	border-radius: 15px;
+
+}
+.spseudo{
+	font-weight: bold;
+	font-family: cornopop;
+
+}
+.rpseudo{
+	font-weight: bold;
+	font-family: cornopop;
+}
+
+.pseudov{
+	color:#dedede;
+}
+.receiver{
+	padding: 9px;
+	background-color:#55555d;
+	width: 400px;
+	border-radius: 15px;;
+}
+#prmessage, .receiverbox{
+	padding-left: 100px;
+}
